@@ -211,6 +211,10 @@ img {
   line-height: calc(24 / 20);
   color: var(--color-navy-blue);
 }
+.benefits-icon {
+ 
+
+}
 .benefits-txt {
   color: var(--color-slate);
 }
@@ -294,9 +298,12 @@ img {
   background-color:var(--color-iris);
   border-radius: 50%;
 }
+.socials-link:hover  {
+background-color: var(--color-ocean);
+}
 
 .socials-icon{
-
+  fill:var(--color-cloud)
 }
 
 
@@ -357,6 +364,12 @@ color: var(--color-navy-blue);
   gap: 48px 24px;
 }
 .projects-item {
+  
+}
+
+.projects-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 .projects-link {
 }
