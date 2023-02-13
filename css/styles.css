@@ -272,6 +272,7 @@ img {
   color: var(--color-navy-blue);
 }
 .team-position {
+  margin-bottom: 8px;
   text-align: center;
   color: var(--color-slate);
 }
@@ -279,7 +280,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 24px;
 }
 .socials-item {
 }
@@ -287,6 +288,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  width: 40px;
+  height: 40px;
+  background-color:var(--color-iris);
+  border-radius: 50%;
 }
 
 .socials-icon{
